@@ -148,3 +148,50 @@ footer{
 .foot{
     margin: 10px;
 }
+.products{
+    margin: 10px;
+}
+.phead{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+   
+.inp{
+    border-radius: 30px;
+    padding: 5px;
+}
+.form{
+    background : rgb(125, 125, 241);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.form button{
+    margin: 10px 5px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 5px;
+}
+#here{
+    color: white;
+}
+
+/*@media only screen and (max-width: 800px) {
+
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    nav ul{
+        position: absolute;
+        background: rgb(175, 175, 252);
+        width: 100%;
+        left:0;
+        top: 70px;
+    }
+    nav ul li{
+        display: block;
+        margin: 15px 140px 20px; 
+    }
+}
