@@ -1,5 +1,11 @@
-var x = document.querySelector(".menu");
-x.addEventListener("onclick", toggle);
+
 function toggle(){
-    x.classList.add("");
+    var y = document.querySelector(".navbar nav");
+    if(y.style.display === "block"){
+        y.style.display = "none";
+    }
+    else{
+        y.style.display = "block";
+    }
+    
 }

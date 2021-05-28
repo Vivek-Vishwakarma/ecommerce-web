@@ -160,6 +160,9 @@ footer{
 .inp{
     border-radius: 30px;
     padding: 5px;
+    background-color: rgb(162, 162, 255);
+    border: none;
+    border-bottom: 2px solid black;
 }
 .form{
     background : rgb(125, 125, 241);
@@ -176,22 +179,43 @@ footer{
 #here{
     color: white;
 }
-
-/*@media only screen and (max-width: 800px) {
+option:focus{
+    border: none;
+}
+.arow{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.aimg{
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+.menu{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
 
     .menu{
         display: block;
         cursor: pointer;
     }
-    nav ul{
+    .navbar nav{
+        display: flex;
         position: absolute;
-        background: rgb(175, 175, 252);
-        width: 100%;
-        left:0;
-        top: 70px;
+        text-align: right;
+        margin-top: 60%;
+        margin-left: 65%;
+        background-color: rgb(162, 162, 255);
+        max-width: 100%;
+        display: none;
     }
-    nav ul li{
-        display: block;
-        margin: 15px 140px 20px; 
+    .navbar nav li{
+        margin: 4%;
+    }
+    .arow{
+        flex-direction: column;
     }
 }
