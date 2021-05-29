@@ -197,7 +197,10 @@ option:focus{
     display: none;
 }
 @media only screen and (max-width: 800px) {
-
+    @keyframes example {
+        from{max-width: 0%;}
+        to{max-width: 100%;}
+    }
     .menu{
         display: block;
         cursor: pointer;
@@ -211,6 +214,8 @@ option:focus{
         background-color: rgb(162, 162, 255);
         max-width: 100%;
         display: none;
+        animation-name: example;
+        animation-duration: 3s;
     }
     .navbar nav li{
         margin: 4%;
