@@ -248,4 +248,11 @@ option:focus{
     .arow{
         flex-direction: column;
     }
+    .foot{
+        flex-direction: column;
+
+    }
+    #media{
+        margin: 0px;
+    }
 }
