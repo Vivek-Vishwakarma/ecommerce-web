@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Newsreader', serif;
 }
+@keyframes all{
+    from{left: 10px;}
+    to{left: 0px;}
+}
+html{
+    animation: all 2s;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -123,10 +130,7 @@
 .phonediv:hover{
     transform: translateY(-5px);
 }
-footer{
-    background-color: black;
-    color: white;
-}
+
 .exc{
     display: flex;
     align-items: center;
@@ -195,6 +199,27 @@ option:focus{
 }
 .menu{
     display: none;
+    flex-wrap: wrap;
+}
+.foot{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.foot img{
+    margin: 5px;
+    align-items: right;
+}
+#tweet {
+    width: 60px;
+    height: 60px;
+}
+#footlogo{
+    height: 75px;
+    width: 110px;
+}
+#media{
+    margin-left: 55%;
 }
 @media only screen and (max-width: 800px) {
     @keyframes example {
