@@ -136,7 +136,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: radial-gradient(rgb(175, 175, 252),rgb(248, 157, 157));
+    background: radial-gradient(rgb(248, 157, 157),rgb(175, 175, 252));
     border-radius: 30px;
     text-align: center;
 }
@@ -209,6 +209,7 @@ option:focus{
 .foot img{
     margin: 5px;
     align-items: right;
+    cursor: pointer;
 }
 #tweet {
     width: 60px;
@@ -220,6 +221,52 @@ option:focus{
 }
 #media{
     margin-left: 55%;
+}
+.btn1{
+    border-radius: 30px;
+    padding: 5px;
+    background: rgb(175, 175, 252);
+    border: none;
+    border: 1px solid black;
+}
+.btn1:hover{
+    background: white;
+    color: black;
+    transition: ease 1s;
+}
+.cart0{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.cart{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 10%;
+    max-height: 30vh;
+    max-width: 90vh;
+    align-items: center;
+}
+.cartinfo{
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    height: 25vh;
+    justify-content: center;
+}
+.cartimg{
+    height: 40%;
+    width: 30%;
+}
+.cartimg img{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+.total{
+    text-align: center;
 }
 @media only screen and (max-width: 800px) {
     @keyframes example {
@@ -255,4 +302,12 @@ option:focus{
     #media{
         margin: 0px;
     }
+    .cart{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+
 }
