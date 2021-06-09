@@ -4,13 +4,7 @@
     box-sizing: border-box;
     font-family: 'Newsreader', serif;
 }
-@keyframes all{
-    from{left: 10px;}
-    to{left: 0px;}
-}
-html{
-    animation: all 2s;
-}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -42,6 +36,7 @@ html{
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    
 }
 .row{
     display: flex;
@@ -64,7 +59,7 @@ html{
 .row .headRow .btn{
     display: block;
     padding: 8px 10px;
-    margin: 0px 30%;
+    margin: 10px 30%;
     background-color: rgb(175, 175, 252);
     color: white;
     border-radius: 30px;
@@ -228,6 +223,7 @@ option:focus{
     background: rgb(175, 175, 252);
     border: none;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 .btn1:hover{
     background: white;
@@ -308,6 +304,9 @@ option:focus{
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 20px;
+    }
+    .headRow p{
+        text-align: center;
     }
 
 }
